@@ -27,7 +27,7 @@ My goal is to combine development and IT knowledge to create practical applicati
 
 * **[Alphy](https://github.com/AC-Storm-YT/Alphy-Public) & [Alphy Swapper](https://github.com/AC-Storm-YT/Alphy-Swapper)** - A Rocket League cosmetic mod manager designed for safer local file swapping, custom imports, backups, mod sharing, and plugins. Alphy Swapper is the official swapping plugin for Alphy. It lets you generate Rocket League cosmetic swaps from supported UPK assets directly inside Alphy.
 * **Rocket Swap** — The successor to Alphy. Rocket Swap is a Windows mod manager and local visual swapper for Rocket League. It imports and organizes cosmetic mods, generates visual item swaps, applies selected changes before launch, and restores clean game files after Rocket League closes.
-
+* **[Windows Security Patcher](https://github.com/AC-Storm-YT/windowssecuritypatcher)** - A Windows 11 utility for repairing inaccessible or greyed-out Memory Integrity and Kernel-mode Hardware-enforced Stack Protection settings. 
 ---
 
 ## 🛠️ Skills, Tools & Technologies
