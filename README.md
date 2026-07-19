@@ -38,6 +38,7 @@ My goal is to combine development and IT knowledge to create practical applicati
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Visual Basic](https://img.shields.io/badge/Visual_Basic-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat&logo=lua&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat)
 
 <br>
