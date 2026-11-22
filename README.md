@@ -30,6 +30,13 @@ My goal is to combine development and IT knowledge to create practical applicati
 * **[Windows Security Patcher](https://github.com/AC-Storm-YT/windowssecuritypatcher)** - A Windows 11 utility for repairing inaccessible or greyed-out Memory Integrity and Kernel-mode Hardware-enforced Stack Protection settings.
 * **[NextDNS Linker](https://github.com/AC-Storm-YT/ndnslinker)** - NextDNS Linker is a small Windows utility for networks without a static public IP address. It validates a NextDNS linked-IP URL and creates a Windows Task Scheduler entry that refreshes the link whenever Windows reports a network-profile connection event.
 ---
+## 🤝 Open-source contributions
+
+* **[Leonida](https://github.com/ItsNotRexed/Leonida)** - A static recompilation of the Xbox Series version of Grand Theft Auto VI to run natively on Windows, built by each player from their own copy (no game files in the repo; not affiliated with Rockstar Games or Take-Two). It includes an RDNA2 → SPIR-V shader translator and an Xbox D3D12 → Vulkan layer.
+  * Merged: [#201](https://github.com/ItsNotRexed/Leonida/pull/201) fixed undefined shifts in the `v_perm_b32` / `v_alignbit_b32` translation and added value tests; [#378](https://github.com/ItsNotRexed/Leonida/pull/378) added value tests for `v_min3` / `v_max3`.
+  * Found and documented **D3D-65**: the D3D12 layer's tiled-resource mip layout matched NVIDIA only. Measured AMD's behaviour on RDNA2 and RDNA4 ([#573](https://github.com/ItsNotRexed/Leonida/pull/573)).
+  * GPU-tested other contributors' translator and runtime PRs on AMD hardware (native wave64).
+---
 
 ## 🛠️ Skills, Tools & Technologies
 
