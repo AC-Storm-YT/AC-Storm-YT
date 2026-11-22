@@ -12,14 +12,14 @@ My background combines software development with hands-on knowledge of computer 
 * 🌐 Experience building websites with **HTML, CSS, and JavaScript**
 * 🛠️ Interested in desktop applications, utilities, automation, game modding, and system tools
 * 🖥️ Strong understanding of computer hardware, Windows, software, and troubleshooting
-* 🤖 I use AI-assisted development tools, primarily Codex through ChatGPT, for learning, prototyping, debugging, and accelerating complex implementations
+* 🤖 I use AI-assisted development tools, primarily Codex through ChatGPT and Claude Code, for learning, prototyping, debugging, and accelerating complex implementations
 * 📚 Currently improving my software architecture, code quality, and deeper systems-programming knowledge
 
 ## 📖 My Story
 
 I started coding in 2014 with Visual Basic and transitioned to C# in 2017. Over time, I expanded into web development using HTML, CSS, and JavaScript while also developing a strong interest in computers, hardware, networking, operating systems, and technical troubleshooting.
 
-AI-assisted development is an important part of my workflow. I primarily use Codex through ChatGPT to explore unfamiliar concepts, prototype solutions, troubleshoot problems, and accelerate complex implementations. I define the intended behavior, make the technical decisions, test the results, and work to understand and maintain the code used in my projects.
+AI-assisted development is an important part of my workflow. I primarily use Codex through ChatGPT and Claude Code to explore unfamiliar concepts, prototype solutions, troubleshoot problems, and accelerate complex implementations. I define the intended behavior, make the technical decisions, test the results, and work to understand and maintain the code used in my projects.
 
 My goal is to combine development and IT knowledge to create practical applications, automation tools, network utilities, and software that solves real problems.
 
