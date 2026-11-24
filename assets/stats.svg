@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="234" viewBox="0 0 840 234" role="img" aria-labelledby="title desc">
+<title id="title">GitHub stats</title><desc id="desc">Contributions 805, Commits 417, Pull requests 9, Issues opened 0, Public repos 12, Stars received 1</desc>
+<style>
+text{font-family:Consolas,'Liberation Mono',monospace;fill:#f4eedb}
+.heading{font-size:25px;font-weight:700}.small{font-size:15px;fill:#b4c8b7}
+.metric{font-size:33px;font-weight:700}.name{font-size:18px}.note{font-size:13px;fill:#b4c8b7}
+@media(prefers-reduced-motion:no-preference){.draw{animation:appear .55s ease-out backwards}@keyframes appear{from{opacity:.35}to{opacity:1}}}
+</style>
+<rect width="840" height="234" rx="12" fill="#101c18"/>
+<path d="M0 47h10l10-10V22h9" fill="none" stroke="#ae7956" stroke-width="2"/><circle cx="31" cy="22" r="2.5" fill="#efa775"/>
+<text x="43" y="40" class="heading" text-anchor="start">GitHub stats</text><text x="812" y="38" class="small" text-anchor="end">Activity over the last year</text>
+<rect x="33" y="67" width="3" height="48" rx="2" fill="#9e6948"/>
+<text x="46" y="95" class="metric" text-anchor="start">805</text>
+<text x="46" y="115" class="small" text-anchor="start">Contributions</text>
+<rect x="304" y="67" width="3" height="48" rx="2" fill="#9e6948"/>
+<text x="317" y="95" class="metric" text-anchor="start">417</text>
+<text x="317" y="115" class="small" text-anchor="start">Commits</text>
+<rect x="575" y="67" width="3" height="48" rx="2" fill="#9e6948"/>
+<text x="588" y="95" class="metric" text-anchor="start">9</text>
+<text x="588" y="115" class="small" text-anchor="start">Pull requests</text>
+<rect x="33" y="141" width="3" height="48" rx="2" fill="#9e6948"/>
+<text x="46" y="169" class="metric" text-anchor="start">0</text>
+<text x="46" y="189" class="small" text-anchor="start">Issues opened</text>
+<rect x="304" y="141" width="3" height="48" rx="2" fill="#658b74"/>
+<text x="317" y="169" class="metric" text-anchor="start">12</text>
+<text x="317" y="189" class="small" text-anchor="start">Public repos</text>
+<rect x="575" y="141" width="3" height="48" rx="2" fill="#658b74"/>
+<text x="588" y="169" class="metric" text-anchor="start">1</text>
+<text x="588" y="189" class="small" text-anchor="start">Stars received</text>
+<text x="33" y="215" class="note" text-anchor="start">Public repositories and stars are current totals.</text>
+</svg>

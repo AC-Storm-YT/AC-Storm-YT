@@ -1,0 +1,30 @@
+name: Refresh profile panels
+on:
+  schedule:
+    - cron: '27 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-panels
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render GitHub activity
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node .github/scripts/profile-panels.mjs
+      - name: Save changed panels
+        run: |
+          git add -- assets/stats.svg assets/contributions.svg assets/languages.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh profile activity panels'
+          git push

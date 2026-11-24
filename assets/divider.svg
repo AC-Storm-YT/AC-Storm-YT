@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="24" viewBox="0 0 840 24" aria-hidden="true">
+  <style>
+    .signal { stroke-dasharray: 28 900; stroke-dashoffset: -380; }
+    @media (prefers-reduced-motion: no-preference) {
+      .signal { animation: sweep 6s linear infinite; }
+      @keyframes sweep { from { stroke-dashoffset: 28; } to { stroke-dashoffset: -900; } }
+    }
+  </style>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 15h369l7-7h64l7 7h377" stroke="#688677" stroke-width="1.5"/>
+    <path class="signal" d="M8 15h369l7-7h64l7 7h377" stroke="#efa775" stroke-width="2.8"/>
+    <g stroke="#9e6948" stroke-width="2"><circle cx="5" cy="15" r="3"/><circle cx="835" cy="15" r="3"/></g>
+  </g>
+</svg>

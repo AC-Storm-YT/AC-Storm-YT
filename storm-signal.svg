@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Størm</title>
+  <desc id="desc">An ivory, hand-lettered wordmark on dark green. A copper signal follows the stepped contour around the name. The diagonal of the ø is copper too.</desc>
+  <defs>
+    <!-- The upper run steps down with the change from capitals to lowercase.
+         Under the ø, the return run clears the tip of the diagonal. -->
+    <path id="loop" d="M244 158 266 136V91L303 54H447L461 68H508L531 91H884L922 129V199L881 240H616L585 271H517L493 247H307L268 208V182Z"/>
+    <pattern id="pads" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="1.1" fill="#54756b"/>
+    </pattern>
+    <g id="socket" stroke="#799285" stroke-width="1.6" fill="#10201b">
+      <circle r="4.8"/><circle r="1.1" stroke="none" fill="#b9c5ab"/>
+    </g>
+    <g id="header-pad">
+      <circle r="5.2" fill="#ac936d"/>
+      <circle r="2.5" fill="#0b1613"/>
+    </g>
+    <g id="lead">
+      <rect width="6" height="10" rx="1" fill="#a99270"/>
+      <path d="M1 5h4" stroke="#645f4e"/>
+    </g>
+    <style>
+      .signal { stroke-dasharray: 56 1562.365; stroke-dashoffset: -301; }
+      .tip { stroke-dasharray: 5 1613.365; stroke-dashoffset: -352; }
+      @media (prefers-reduced-motion: no-preference) {
+        .signal { animation: flow 5.6s linear infinite; }
+        .tip { animation: lead 5.6s linear infinite; }
+      }
+      @keyframes flow { from { stroke-dashoffset: -301; } to { stroke-dashoffset: -1919.365; } }
+      @keyframes lead { from { stroke-dashoffset: -352; } to { stroke-dashoffset: -1970.365; } }
+    </style>
+  </defs>
+  <rect width="1200" height="330" fill="#101c18"/>
+  <g fill="url(#pads)" opacity=".48">
+    <path d="M0 0h232L138 94H0zM1200 330H968l94-94h138z"/>
+  </g>
+  <!-- A six-pin header and an eight-lead package give the outer traces endpoints. -->
+  <g fill="none" stroke="#405a4e" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M96 257v-9l18-18h26l31-31h38"/>
+    <path d="M114 257v-6l14-14h16l31-31h34"/>
+    <path d="M78 275v14l11 11h78l18-18h53"/>
+    <path d="M96 275v11l7 7h60l18-18h45"/>
+    <path d="M1030 109V96l9-9h53l14-14h94"/>
+    <path d="M1040 109v-9l7-7h49l14-14h90"/>
+    <path d="M1050 109v-5l5-5h45l14-14h86"/>
+    <path d="M1020 144v11l-12 12h-10"/>
+    <path d="M1030 144v15l-15 15h-12"/>
+    <path d="M1050 144v12l17 17h44l14 14h75"/>
+  </g>
+  <g transform="translate(78 257)">
+    <path d="M-11-5l6-6h51v40h-57z" fill="none" stroke="#708476" stroke-width="1.25"/>
+    <path d="M-21-11h7l-7 7z" fill="#c9ac80"/>
+    <rect x="-5.2" y="-5.2" width="10.4" height="10.4" rx="1" fill="#bc9a70"/>
+    <circle r="2.5" fill="#0b1613"/>
+    <use xlink:href="#header-pad" x="18"/><use xlink:href="#header-pad" x="36"/>
+    <use xlink:href="#header-pad" y="18"/><use xlink:href="#header-pad" x="18" y="18"/><use xlink:href="#header-pad" x="36" y="18"/>
+  </g>
+  <g transform="translate(1017 107)">
+    <use xlink:href="#lead"/><use xlink:href="#lead" x="10"/><use xlink:href="#lead" x="20"/><use xlink:href="#lead" x="30"/>
+    <use xlink:href="#lead" y="28"/><use xlink:href="#lead" x="10" y="28"/><use xlink:href="#lead" x="20" y="28"/><use xlink:href="#lead" x="30" y="28"/>
+    <path d="M-4 7h44v24H-4z" fill="#1c2923" stroke="#56675a"/>
+    <path d="M-2 29V9h40" fill="none" stroke="#7d8472"/>
+    <circle cx="2" cy="13" r="2" fill="#bcaa88"/>
+  </g>
+  <g font-family="Consolas, monospace" font-size="10" letter-spacing="1" fill="#91a293">
+    <text x="44" y="276">J1</text>
+    <text x="1065" y="129">U1</text>
+  </g>
+  <!-- Etched feeder lines and plated through-holes. -->
+  <g fill="none" stroke="#456458" stroke-width="1.65" stroke-linejoin="round">
+    <path d="M0 152h137l24-24h41l36-36V79l41-41h84"/>
+    <path d="M0 163h142l24-24h41l43-43V84l35-35"/>
+    <path d="M0 174h147l24-24h41l24-24"/>
+    <path d="M0 224h121l34-34h59l38-38"/>
+    <path d="M918 120l39-39h77l21-21h145"/>
+    <path d="M934 155l42 42h60l23 23h141"/>
+    <path d="M934 169l40 40h58l23 23h145"/>
+    <path d="M926 210l46 46h58l20 20h150"/>
+    <path d="M708 253h179l25-25"/>
+    <path d="M286 224l36 36h149"/>
+  </g>
+  <g>
+    <use xlink:href="#socket" x="363" y="38"/><use xlink:href="#socket" x="285" y="49"/>
+    <use xlink:href="#socket" x="236" y="126"/><use xlink:href="#socket" x="252" y="152"/>
+    <use xlink:href="#socket" x="918" y="120"/><use xlink:href="#socket" x="934" y="155"/>
+    <use xlink:href="#socket" x="934" y="169"/><use xlink:href="#socket" x="926" y="210"/>
+    <use xlink:href="#socket" x="708" y="253"/><use xlink:href="#socket" x="471" y="260"/>
+  </g>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <use xlink:href="#loop" stroke="#9e6948" stroke-width="2"/>
+    <use xlink:href="#loop" class="signal" stroke="#efa775" stroke-width="3.3"/>
+    <use xlink:href="#loop" class="tip" stroke="#ffdaa1" stroke-width="4.2"/>
+  </g>
+  <!-- Five original letterforms share a flat baseline and clipped terminals. -->
+  <g transform="translate(311 82) scale(1.36 1.36) skewX(-7)" fill="#f4eedb">
+    <path d="M91 4H34C16 4 5 14 5 31c0 16 9 23 26 27l26 6c8 2 11 5 11 10s-4 8-11 8H7L0 100h56c22 0 35-11 35-29 0-16-9-23-27-27l-26-6c-7-2-10-4-10-9 0-4 3-7 10-7h45z"/>
+    <path d="M114 18h22v20h24l-6 17h-18v21c0 5 3 7 9 7h9l-6 17h-11c-15 0-23-8-23-22V55h-13V38h13z"/>
+    <path fill-rule="evenodd" d="M204 35c25 0 39 12 39 33 0 20-16 34-41 34-24 0-39-12-39-33 0-20 16-34 41-34zm-1 17c-11 0-18 6-18 17 0 10 6 16 17 16 12 0 19-7 19-17 0-10-7-16-18-16z"/>
+    <path d="M174 107l51-78h10l-51 78z" fill="#efa775" stroke="#101c18" stroke-width="2.5"/>
+    <path d="M254 37h21v11c6-8 14-12 25-12h5l-6 20h-6c-11 0-18 6-18 18v26h-21z"/>
+    <path d="M310 37h21v8c5-6 12-10 22-10 10 0 16 4 20 11 6-7 14-11 24-11 15 0 24 10 24 26v39h-22V65c0-8-3-12-9-12-7 0-12 5-12 14v33h-22V65c0-8-3-12-10-12-8 0-13 5-13 14v33h-23z"/>
+  </g>
+</svg>
