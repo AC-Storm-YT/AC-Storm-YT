@@ -1,7 +1,7 @@
 name: Refresh profile panels
 on:
   schedule:
-    - cron: '27 7 * * *'
+    - cron: '29 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,15 +16,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Render GitHub activity
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Refresh and publish changed panels
         env:
           GH_TOKEN: ${{ github.token }}
-        run: node .github/scripts/profile-panels.mjs
-      - name: Save changed panels
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          git add -- assets/stats.svg assets/contributions.svg assets/languages.svg
-          if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Refresh profile activity panels'
-          git push
+          for attempt in 1 2 3; do
+            git fetch --depth=1 origin "refs/heads/$TARGET_BRANCH"
+            git switch -C refresh-panels FETCH_HEAD
+            node .github/scripts/profile-panels.mjs
+            git add -- assets/stats.svg assets/contributions.svg assets/languages.svg
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m 'Refresh profile activity panels'
+            if git push origin "HEAD:refs/heads/$TARGET_BRANCH"; then exit 0; fi
+          done
+          exit 1
