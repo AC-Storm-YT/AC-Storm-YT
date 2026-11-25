@@ -1,7 +1,8 @@
 name: Refresh profile panels
 on:
   schedule:
-    - cron: '29 * * * *'
+    - cron: '0 13 * * *'
+      timezone: America/Toronto
   workflow_dispatch:
 
 permissions:
