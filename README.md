@@ -30,8 +30,8 @@ Rocket Swap grew out of two earlier projects.
 
 ### Windows & networking
 
-**“Why is that security toggle greyed out?”**  
-[Windows Security Patcher](https://github.com/AC-Storm-YT/windowssecuritypatcher) repairs two settings that can become inaccessible in Windows 11 — Memory Integrity and Kernel-mode Hardware-enforced Stack Protection.
+**“Why are my Windows security settings greyed out?”**  
+I built [Kintsugi](https://github.com/AC-Storm-YT/Kintsugi) to troubleshoot and manage Memory Integrity and Kernel-mode Hardware-enforced Stack Protection on Windows 11. It shows whether each feature is running, checks hardware support, and flags potential driver conflicts. You can create a restore point before changing either setting.
 
 **“My public IP changed. Can Windows relink NextDNS for me?”**  
 [NextDNS Linker](https://github.com/AC-Storm-YT/ndnslinker) validates your linked-IP URL and registers a Windows Task Scheduler entry. When Windows reports a network-profile connection, the task refreshes the link.
