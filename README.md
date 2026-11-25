@@ -34,7 +34,7 @@ Rocket Swap grew out of two earlier projects.
 [Windows Security Patcher](https://github.com/AC-Storm-YT/windowssecuritypatcher) repairs two settings that can become inaccessible in Windows 11 — Memory Integrity and Kernel-mode Hardware-enforced Stack Protection.
 
 **“My public IP changed. Can Windows relink NextDNS for me?”**  
-[NextDNS Linker](https://github.com/AC-Storm-YT/ndnslinker) validates your linked-IP URL and registers a Windows Task Scheduler entry. When Windows reports a network-profile connection, the task refreshes the link. That’s one less thing to babysit on a network with a dynamic public IP.
+[NextDNS Linker](https://github.com/AC-Storm-YT/ndnslinker) validates your linked-IP URL and registers a Windows Task Scheduler entry. When Windows reports a network-profile connection, the task refreshes the link.
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
