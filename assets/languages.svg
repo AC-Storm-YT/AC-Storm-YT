@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="230" viewBox="0 0 840 230" role="img" aria-labelledby="title desc">
-<title id="title">Languages</title><desc id="desc">C# 41.7%, Python 39.3%, Lua 15.0%, HTML 2.7%, PowerShell 1.2%, Other 0.1%</desc>
+<title id="title">Languages</title><desc id="desc">Python 51.5%, C# 44.9%, HTML 3.5%</desc>
 <style>
 text{font-family:Consolas,'Liberation Mono',monospace;fill:#f4eedb}
 .heading{font-size:25px;font-weight:700}.small{font-size:15px;fill:#b4c8b7}
@@ -9,29 +9,17 @@ text{font-family:Consolas,'Liberation Mono',monospace;fill:#f4eedb}
 <rect width="840" height="230" rx="12" fill="#101c18"/>
 <path d="M0 47h10l10-10V22h9" fill="none" stroke="#ae7956" stroke-width="2"/><circle cx="31" cy="22" r="2.5" fill="#efa775"/>
 <text x="43" y="40" class="heading" text-anchor="start">Languages</text><text x="812" y="38" class="small" text-anchor="end">Public, non-fork repositories</text>
-<rect x="31.00" y="65" width="324.23" height="13" rx="2" fill="#efa775"/>
+<rect x="31.00" y="65" width="400.93" height="13" rx="2" fill="#efa775"/>
 <rect x="31" y="100" width="10" height="10" rx="2" fill="#efa775"/>
-<text x="51" y="112" class="name" text-anchor="start">C#</text>
-<text x="403" y="112" class="name" text-anchor="end">41.7%</text>
-<rect x="355.23" y="65" width="305.91" height="13" rx="2" fill="#a5cfac"/>
+<text x="51" y="112" class="name" text-anchor="start">Python</text>
+<text x="403" y="112" class="name" text-anchor="end">51.5%</text>
+<rect x="431.93" y="65" width="349.67" height="13" rx="2" fill="#a5cfac"/>
 <rect x="433" y="100" width="10" height="10" rx="2" fill="#a5cfac"/>
-<text x="453" y="112" class="name" text-anchor="start">Python</text>
-<text x="805" y="112" class="name" text-anchor="end">39.3%</text>
-<rect x="661.14" y="65" width="116.66" height="13" rx="2" fill="#79aeb1"/>
+<text x="453" y="112" class="name" text-anchor="start">C#</text>
+<text x="805" y="112" class="name" text-anchor="end">44.9%</text>
+<rect x="781.60" y="65" width="27.40" height="13" rx="2" fill="#79aeb1"/>
 <rect x="31" y="133" width="10" height="10" rx="2" fill="#79aeb1"/>
-<text x="51" y="145" class="name" text-anchor="start">Lua</text>
-<text x="403" y="145" class="name" text-anchor="end">15.0%</text>
-<rect x="777.80" y="65" width="20.91" height="13" rx="2" fill="#d0bf85"/>
-<rect x="433" y="133" width="10" height="10" rx="2" fill="#d0bf85"/>
-<text x="453" y="145" class="name" text-anchor="start">HTML</text>
-<text x="805" y="145" class="name" text-anchor="end">2.7%</text>
-<rect x="798.70" y="65" width="9.35" height="13" rx="2" fill="#b49bbf"/>
-<rect x="31" y="166" width="10" height="10" rx="2" fill="#b49bbf"/>
-<text x="51" y="178" class="name" text-anchor="start">PowerShell</text>
-<text x="403" y="178" class="name" text-anchor="end">1.2%</text>
-<rect x="808.05" y="65" width="0.95" height="13" rx="2" fill="#86978f"/>
-<rect x="433" y="166" width="10" height="10" rx="2" fill="#86978f"/>
-<text x="453" y="178" class="name" text-anchor="start">Other</text>
-<text x="805" y="178" class="name" text-anchor="end">0.1%</text>
+<text x="51" y="145" class="name" text-anchor="start">HTML</text>
+<text x="403" y="145" class="name" text-anchor="end">3.5%</text>
 <text x="31" y="210" class="note" text-anchor="start">Share of code bytes reported by GitHub Linguist.</text>
 </svg>
